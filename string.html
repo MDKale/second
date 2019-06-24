@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS</title>
+</head>
+<body>
+
+<script>
+	var txt = "Hi my name  is mayur kale"
+	var len = txt.length;
+	document.write("Length is " + len);
+
+	var pos = txt.indexOf("name");
+	document.write("<br> position is " + pos);
+
+	var part = txt.slice(3,5);
+	document.write("<br> sliced is " + part);
+
+	var rep = txt.replace("mayur", "Mayur");
+	document.write("<br> replaced is " + rep);
+
+	var trim = txt.trim();
+	document.write("<br> trimmed is " + trim);
+
+	var upp = txt.toUpperCase();
+	document.write("<br> Uppercase is " + upp);
+
+	var low = txt.toLowerCase();
+	document.write("<br> Lowercase is " + low);
+
+	var sp = "mumbai,new york,chennai,baroda"
+	var sp1 = sp.split(",");
+	for(i = 0;i < sp1.length;i++){
+		document.write("<br> splitted part is " + sp1[i]);
+	}
+</script>
+
+</body>
+</html>

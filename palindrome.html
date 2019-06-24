@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<script>
+function palin()
+{
+var a,no,b=12321,temp=0;
+
+b=no;
+while(no>0)
+{
+a=no%10;
+no=parseInt(no/10);
+temp=temp*10+a;
+}
+if(temp==b)
+{
+return document.write("Palindrome number");
+}
+else
+{
+return document.write("Not Palindrome number");
+}
+}
+</script>
+
+</body>
+</html>
